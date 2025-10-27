@@ -1,0 +1,27 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names:
+  [
+    'wheel',
+    'fire',
+    'inside_rail',
+    'LEP',
+    'outside_rail',
+    'person',
+    'rail_switch',
+    'rail',
+    'unknown',
+    'pole',
+    'train',
+    'sign',
+  ]
+
+roboflow:
+  workspace: cv-yolo-train-segment
+  project: cv-yolo-train-segment-dataset
+  version: 1
+  license: CC BY 4.0
+  url:
